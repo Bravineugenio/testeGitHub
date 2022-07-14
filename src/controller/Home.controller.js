@@ -1,5 +1,5 @@
 import Api from "./Api.controller.js"
-import Modal from "./modal.controller.js"
+import Modal from "./Modal.controller.js"
 import RenderizarTarefas from "./Renderizartarefas.controller.js"
 
 
