@@ -1,5 +1,5 @@
 import Api from "./Api.controller.js";
-import Modal from "./modal.controller.js"
+import Modal from "./Modal.controller.js"
 
 let teste = await Api.readAll()
 
