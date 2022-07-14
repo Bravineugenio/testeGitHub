@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/componentes.css">
+    <link rel="stylesheet" href="./src/css/login.style.css">
+  
+  </head>
+
+  <body>
+    <title>Kenzie Habit - Login</title>
+
+    <div class="container">
+      <div class="container_info">
+        <h1>KenzieHabit</h1>
+        <h2>If you are going to use a passage of Lorem Ipsum</h2>
+        <p>you need to be sure there isn't anything</p>
+      </div>
+      
+  
+      <div class="container_login">
+        <div class="login">
+          <h1>Login</h1>
+        </div>
+        <form class="info_usuario">
+          <label class="label-login">Usuário</label>
+          <input type="email" name="email" id="email" placeholder="Email" class="email" required = "">
+          <label class="label-login">Senha</label>
+          <input type="password" name="password" id="senha" placeholder="Senha" class="input" required = "">
+          <button id="button_entrar_login">Entrar</button>
+          <p class="Cadastro">Realize o seu <button class="CadastroButton">cadastro</button></p>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="../controller/Home.controller.js"></script>
+    <script type="module" src="src/scripts/login.scripts.js"></script>
+  </body>
+
+  <!-- <img src="src\assets\img\usario_criado.png" alt="Usuário Criado"> -->
+</html>

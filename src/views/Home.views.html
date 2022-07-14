@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenzie Habit - Login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/componentes.css">
+    <link rel="stylesheet" href="../css/Home.style.css">
+    <script src="https://kit.fontawesome.com/7e71f706ad.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="HeaderConteiner logo">
+            <h3>Kenzie Habit</h3>
+            <figure class="figure-header1-imagem-usuario">
+                <img class="imagem-usuario" id="userTopRightPerfil" src="" alt="Imagem Usuário" height="25" width="25" class="perfil" >
+            </figure>
+
+            <div class="menuLogin">
+                <button class="editarPerfil" >Editar perfil</button>
+                <button class="logOut">Sair do app</button>
+            </div>
+        </div>
+
+<!--    <div class="conteinerHeaderUser">
+            <div class="HeaderConteiner user">
+                <img src="../assets\img\exampleUser.png" alt="Imagem Usuário" height="60" width="60">
+
+                <div>studante de Programação</p>
+                </div>
+                    <h3 id="nomeUser"> Primeiranômia Meidinome Sobrenômia</h3>
+                    <p>E
+            </div>
+        </div>-->
+
+    </header>
+
+    <div class="container_tasks">
+        <div class="boxFiltro">
+            <h3 class="tarefas">Tarefas</h3>
+            <div id="todos_concluidos_criar">
+                <button class="filtro" id="Todos">Todos</button>
+                <button class="filtro" id="Concluidos">Concluídos</button>
+                <button class="button" id="Criar">Criar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+    
+    <div class="container_tarefas" id="container_tarefas_reload">
+    <div id="tituloTarefas" class="">
+        <div class="statusHeader">
+            <p class="statusTitulo">Status</p>
+        </div>
+
+        <div class="tituloHeader">
+            <p class="ptitulo">Título</p>
+        </div>
+
+        <div class="descricaoHeader">
+            <p class="descricao">Descrição</p>
+        </div>
+
+        <div class="categoria">
+            <p>Categoria</p>
+        </div>
+
+        <div class="editar">
+            <p>Editar</p>
+        </div>
+    </div>
+
+    <div id="taskList">
+
+    </div>  
+
+    <button class="button" id="carregarMais" >Carregar mais</button>
+
+
+    
+    <div id="modal_criar_tarefa">
+
+    </div>
+    <a href="/index.html"></a>
+
+    <script src="https://kit.fontawesome.com/7e71f706ad.js" crossorigin="anonymous"></script>
+    <script type="module" src="../scripts/Home.scripts.js"></script>
+    <script type="module" src="../controller/Home.controller.js"></script>
+</body>
+</html>

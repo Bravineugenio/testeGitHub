@@ -1,0 +1,87 @@
+:root {
+    --brand-1: 65, 90, 243;
+    --brand-2: 65, 80, 210;
+    --brand-3: 215, 228, 251;
+
+    --grey-1: 33, 37, 41;
+    --grey-2: 52, 58, 64;
+    --grey-3: 173, 181, 189;
+    --grey-4: 233, 236, 239;
+    --grey-5: 241, 243, 245;
+    --grey-6: 248, 249, 250;
+
+    --sucess: 86, 207, 142;
+    --error-1: 230, 68, 69;
+    --error-2: 240, 56, 57;
+
+    --preto: 0, 0, 0;
+    --primary-disable: 160, 173, 249;
+}
+
+input {
+    color: rgba(var(--grey-2),1);
+    background-color: rgba(var(--grey-5),1);
+
+    margin-bottom: 0.5rem;
+    padding: 0.3rem 1rem;
+    background-color: #F1F3F5;
+    border-radius: 4px;
+
+    border: 2px solid transparent;
+}
+
+input:focus {
+    border: 2px solid rgba(var(--brand-2),1);
+
+    outline: none;
+}
+
+.button {
+    background-color: rgba(var(--brand-1),1);
+    color: rgba(var(--grey-6),1);
+
+    padding: 0.3rem 1rem;
+    border-radius: 0.2rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgba(var(--primary-disable),1);
+}
+
+.aviso {
+    /* width: 300px; */
+    /* height: 100px; */
+
+    display: none;
+
+    position: absolute;
+
+    /* background-color: #E6F8EE;
+    border: 2px solid #56CF8E; */
+
+    top: 60px;
+    left: 0;
+}
+
+.aviso img {
+    width: 100%;
+}
+
+.aviso.usuarioCriado {
+    display: block;
+}
+.aviso.habitoCriado {
+    display: block;
+}
+.aviso.habitoAleterado {
+    display: block;
+}
+
+
+
+@media (min-width: 768px) {
+    .aviso {
+        left: 40%;
+    }
+}
